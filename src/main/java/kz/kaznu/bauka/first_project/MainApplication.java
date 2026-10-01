@@ -53,8 +53,8 @@ public class MainApplication {
         }
     }
     static void addOrSubtractAndPrint(int initValue, int delta, boolean increment) {
-        initValue = (int)(Math.random() * 8);
-        delta = (int)(Math.random() * 8);
+        initValue = (int)(Math.random() * 10);
+        delta = (int)(Math.random() * 10);
         if (increment) {
             int sum = initValue + delta;
             System.out.println(sum);
