@@ -1,4 +1,11 @@
 package kz.kaznu.bauka.dz_6;
 
-public class Car {
+import kz.kaznu.bauka.dz_6.interfaces.Transport;
+
+public class Car implements Transport {
+
+    @Override
+    public boolean move (int diastance , Terrain terrain){
+        return true;
+    }
 }
