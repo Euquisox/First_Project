@@ -2,10 +2,11 @@ package kz.kaznu.bauka.first_project;
 
 public class MainApplication {
     static void main(String[] args) {
-//         greetings();
-//         checkSign();
-//         selectColor();
-//         addOrSubtractAndPrint();
+        greetings();
+        checkSign();
+        selectColor();
+
+
         compareNumbers();
     }
     static void greetings() {
