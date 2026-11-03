@@ -1,4 +1,12 @@
 package kz.kaznu.bauka.dz_6;
 
-public class Horse {
+import kz.kaznu.bauka.dz_6.interfaces.Transport;
+
+public class Horse implements Transport {
+    int stamina;
+
+    @Override
+    public boolean move (int distance , Terrain terrain){
+        return true;
+    }
 }

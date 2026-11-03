@@ -1,4 +1,12 @@
 package kz.kaznu.bauka.dz_6;
 
-public class ATV {
+import kz.kaznu.bauka.dz_6.interfaces.Transport;
+
+public class ATV implements Transport {
+    int fuel;
+
+    @Override
+    public boolean move (int distance , Terrain terrain){
+        return true;
+    }
 }
